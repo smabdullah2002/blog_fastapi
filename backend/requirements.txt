@@ -12,3 +12,8 @@ pydantic[email]
 
 #hashing            
 passlib[bcrypt] 
+
+#jwt equivalent
+python-jose
+
+python-multipart

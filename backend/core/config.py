@@ -11,5 +11,9 @@ class Settings:
 
     DB_URL: str = os.getenv("POSTGRES_URL")
 
+    SECRET_KEY: str = os.getenv("SECRET_KEY")
+    ALGORITHM = "HS256"
+    ACCESS_TOKEN_EXPIRE_MINUTES = 30
+
 
 settings = Settings()
